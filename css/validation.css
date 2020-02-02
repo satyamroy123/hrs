@@ -1,0 +1,15 @@
+.desc {
+    font-size: 20px;
+    font-weight: 500;
+}
+.err {
+    font-size: 15px;
+    color: red;
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}

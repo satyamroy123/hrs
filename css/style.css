@@ -1,0 +1,367 @@
+body {
+    text-align: center;
+    overflow-wrap: normal;
+    background-color: rgb(241, 210, 153);
+}
+.footer {
+    background-color: blue;
+}
+/* #region Header*/
+header {
+    background-color: transparent;
+    text-align: right;
+    color: rgb(15, 15, 117);
+}
+header a {
+    text-decoration-line: none;
+    color: inherit;
+}
+.heading {
+    width: 100%;
+    height: fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+#hr_logo {
+    width: 200px;
+    height: 200px;
+    width: height;
+    display: inline-block;
+    margin:0px;
+    padding: 0px;
+}
+#hr_title {
+    display: inline-block;
+    height: 200px;
+    width: 1110px;
+    margin: 0px;
+    padding: 0px;
+}
+/* #endregion */
+
+/* #region menu*/
+.menu {
+    margin: 0px;
+    list-style-type:none;
+    display: inline-block;
+    background-color: rgb(150, 20, 20);
+    color: #f0e3e3;
+    width: 100%;
+    box-sizing: border-box;
+}
+.menu-item {
+    display: inherit;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans';
+    font-size: 23px;
+    font-weight: 100;
+}
+.active-menu-item {
+    display: inherit;
+    font-weight: bolder;
+    background-color:rgb(226, 106, 19);
+    color: rgb(14, 12, 12);
+}   
+.hover-menu-item:hover {
+    display: inherit;
+    background-color:rgb(172, 34, 34);
+    color:whitesmoke;
+}
+#menu-link {
+    text-decoration-line: inherit;
+    color: inherit;
+}
+/* #endregion */
+
+/* #region Slider*/
+.slide_container {
+    display: block;
+    width: 1020px;
+    height:  300px;
+    background-color:inherit;
+}
+
+.slide_image_holder {
+    width: 1020px;
+    height: 300px;
+}
+/* #endregion */
+
+/* #region Forms*/
+.login_type {
+    width: 40%;
+    font-family: 'Lucida Sans';
+    margin:  0px 5% 0 4%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: 5px solid white;
+    transition-duration: 250ms;
+    box-sizing: border-box;
+}
+.login_type:hover {
+    cursor: pointer;
+}
+.active_button {
+    font-weight: bolder;
+    color: rgb(14, 12, 12);
+    background: rgb(226, 106, 19);
+    border:5px solid rgb(150, 20, 20);
+}
+.form_container{
+    box-sizing: content-box;
+    width: 50%;
+    font-family: 'lucida Sans';
+    font-size: 25px;
+    text-align: left;
+    background-color:rgb(120, 202, 202);
+    border:  25px solid rgb(120, 202, 202);
+}
+.form_content {
+    box-sizing: content-box;
+    width: 100%;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* #endregion */
+
+/* #region Input */
+.text_input {
+    width: 100%;
+    font-size: 25px;
+    font-family: 'lucida Sans';
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding:12px 20px;
+    margin: 8px 0px;
+    transition-duration: 250ms;
+}
+.text_input:focus {
+    color: chocolate;
+    border-color: chocolate;
+}
+.text_input:disabled {
+    border-color: rgb(150, 20, 20);
+    background-color: transparent;
+    color:white ;
+    transition-duration: 250ms;
+}
+.submit {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:rgb(172, 34, 34);
+    border: 4px solid rgb(172, 34, 34);
+    border-radius: 50px;
+    color:white;
+    padding: 5px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 250ms;
+    box-sizing: border-box;
+}
+.submit:hover {
+    border-color: rgb(150, 20, 20);
+}
+.button {
+    display: inline-block;
+    width: 40%;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: white;
+    border: 4px solid rgb(150, 20, 20);
+    border-radius: 50px;
+    color: rgb(14, 12, 12);
+    padding: 5px 30px;
+    text-decoration-line: none;
+    margin: 0% 4% 0% 4%;
+    cursor: pointer;
+    transition-duration: 250ms;
+    box-sizing: border-box;
+}
+.button:hover {
+    border-color: rgb(150, 20, 20);
+}
+input[type=radio] {
+    width:55px;
+    height:-5px;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-family: 'lucida Sans';
+    resize: none;
+    transition-duration: 250ms;
+}
+textarea:focus {
+    border-color:rgb(150, 20, 20);
+}
+.search {
+    text-align: left;
+    width: 80%;
+}
+.search_text {
+    width: 20%;
+    font-size: 15px;
+    font-family: 'lucida Sans';
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding:12px 20px;
+    margin: 8px 0px;
+    transition-duration: 300ms;
+}
+.search_text:focus {
+    width: 80%;
+}
+.search_button {
+    float: right;
+    width: 19%;
+    font-size: 15px;
+    font-family: 'Lucida Sans';
+    border: 2px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding:12px 20px;
+    margin: 8px 0px;
+}
+/* #endregion */
+
+/* #region Message*/
+.message {
+    width: 60%;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+}
+.success {
+    color: green;
+    background-color: chartreuse;
+    border: 3px dotted green;
+}
+.error {
+    color: rgb(150, 20, 20);
+    background-color: lightpink;
+    border: 3px dotted rgb(150, 20, 20);
+}
+.notification {
+    color: rgb(150, 20, 20);
+    background-color: rgb(120, 202, 202);
+    border: 3px dotted rgb(150, 20, 20);
+}
+/* #endregion */
+
+/* #region Admin*/
+.admin_operation {
+    background-color:rgb(120, 202, 202);
+    width: 50%;
+    margin: 10px auto 10px auto;
+    padding: 12px;
+    text-align: left;
+}
+.operation {
+    width: 75%;
+    height: fit-content;
+    padding: 5px 10px 5px 10px;
+    font-family: 'lucida sans';
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 0px solid white;
+}
+.operation:hover {
+    background-color:rgb(150, 20, 20);
+}
+.admin_operation a {
+    margin-left: 12.5%;
+    text-decoration-line: none;
+    color: inherit;
+}
+/* #endregion */
+
+/* #region Table*/
+.table {
+    width: 80%;
+    padding: 5px;
+    margin: 10px auto;
+    background-color:rgb(150, 20, 20);
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(150, 20, 20);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-family: 'verdana';
+    font-size: 25px;
+    color: black;
+}
+.table_row {
+    background-color: white;
+    cursor: default;
+}
+.table_head {
+    background-color: rgb(150, 20, 20);
+    text-align: left;
+    color: white;
+    padding: 20px 15px 20px 15px;
+}
+.table_cell {
+    background-color: inherit;
+    padding: 20px 15px 20px 15px;
+}
+.selected {
+    background-color:rgb(120, 202, 202);
+    color: black;
+}
+/* #endregion */
+
+/* #region User details */
+.user_details {
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    text-align: left;
+}
+.name_container {
+    padding: 5px;
+    font-size: 100px;
+    color:rgb(150, 20, 20);
+}
+.user_details .name {
+    text-align: left;
+    margin-left: 0px;
+}
+.edit_form {
+    text-align: right;
+    font-size: 20px;
+    color: white;
+}
+.edit_form:hover {
+    color:rgb(150, 20, 20);
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+/* #endregion */
